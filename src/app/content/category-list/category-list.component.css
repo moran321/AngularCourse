@@ -1,0 +1,15 @@
+/* .list-div{
+    object-fit: contain;
+    line-height: 50px; 
+     width: 100%; 
+    vertical-align: middle; 
+    
+} */
+li{
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    background: rgb(173, 230, 225); 
+    padding: 10px;
+    cursor: pointer;
+}

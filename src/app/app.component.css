@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    /* background-image: url("./images/Gradient-Background_51.jpg"); */
+}
+.header{
+    width: 100%;
+    /* height: 200px; */
+}
+
+.wrapper{
+    position:relative;  
+    width: 100%;
+    height: 100vh;
+}
+
+.left {
+    float: left;
+    width: 200px;
+    /* display:inline-block; */
+}
+
+.right{
+    overflow:hidden;   
+}
+

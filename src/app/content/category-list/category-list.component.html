@@ -1,0 +1,9 @@
+<div class="list-div">
+ <ul>
+   <li *ngFor="let category of categories; trackBy:categoryTrack">
+      <app-category [category]="category" (categorySelected)="onCategorySelected($event)"> 
+        </app-category>
+   </li>
+ </ul>
+
+</div>

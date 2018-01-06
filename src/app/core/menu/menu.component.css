@@ -1,0 +1,43 @@
+
+.maindiv{
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    /* background: pink; */
+    background-image: url("../images/gradient-1761190_640.jpg");
+    background-size: cover;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    cursor: pointer;
+    border-top: 1px solid #e3e9ea;
+    padding: 15px;
+    list-style-type: none;
+    display: block;
+    /* background: linear-gradient(to right,rgb(64, 98, 114),rgb(137, 176, 202)); */
+}
+li:last-child{
+    border-bottom: 1px solid #e3e9ea;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: rgb(206, 243, 252);
+}
+
+
+.active-route-class{
+    color: white;
+    font-weight: bold;
+    font-size: 105%;
+    text-shadow: 0px 0px 5px black;
+
+}
+
+li:hover {
+    background-color: rgb(79, 114, 134);
+}
