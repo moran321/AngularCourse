@@ -20,6 +20,7 @@ import { ProductsPageModule } from './content/products-page/products-page.module
     ContractComponent,
     AboutComponent,
     PageNotFoundComponent,
+
   ],
   imports: [
     BrowserModule,

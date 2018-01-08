@@ -31,7 +31,7 @@ export class CategoryListComponent implements OnInit {
     this.categorySelected.emit(category);
   }
 
-  projectTrack(index: number, category: Category) {
+ categoryTrack(index: number, category: Category) {
     return category.id;
   }
 }
